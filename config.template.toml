@@ -1,30 +1,25 @@
-baseURL = "https://meik2333.com/"
-languageCode = "zh-cn"
-title = "MeiK's blog"
-theme = "github-style"
+baseURL = "https://spokey.co.uk/"
+languageCode = "en-us"
+title = "Spokey's blog"
+theme = "github-style-spokey"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "MeiK"
-  description = "In solitude, where we are least alone."
-  github = "MeiK2333"
-  facebook = "MeiK2333"
-  twitter = "MeiK2333"
-  linkedin = "MeiK2333"
-  instagram = "MeiK2333"
-  tumblr = "MeiK2333"
-  email = "meik2333@gmail.com"
-  url = "https://meik2333.com"
+  author = "SpokeyWheeler"
+  description = "A constant reminder that life was so much better before the Internet"
+  github = "SpokeyWheeler"
+  linkedin = "spokey"
+  url = "https://spokey.co.uk"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
   favicon = "/images/github-mark.png"
   avatar = "/images/avatar.png"
-  headerIcon = "/images/github-mark-white.png"
-  location = "China"
+  headerIcon = "/images/fluidicon.png"
+  location = "The Fens"
   userStatusEmoji = "😀"
-  enableGitalk = true
+  enableGitalk = false
   enableSearch = true
 
   [params.gitalk]
@@ -39,14 +34,9 @@ pygmentsUseClasses = true
     pagerDirection = "last" # Comment sorting direction, available values are 'last' and 'first'.
     createIssueManually = true # 设置为true，如果是管理员登录，会自动创建issue，如果是false，需要管理员手动添加第一个评论(issue)
     distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.
-    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
   [[params.links]]
     title = "Link"
-    href = "https://github.com/meik2333"
-  [[params.links]]
-    title = "Link2"
-    href = "https://meik2333.com"
-    icon = "https://meik2333.com/images/avatar.png"
+    href = "https://github.com/SpokeyWheeler"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
